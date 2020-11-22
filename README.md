@@ -3,6 +3,6 @@ A SDK for integrating ScoopML AI into arduino board(Experiemental)
 
 # Usage
 ```
-import ScoopML.h
+#include <ScoopML/ScoopML.h>
 ScoopML(url , text)
 ```

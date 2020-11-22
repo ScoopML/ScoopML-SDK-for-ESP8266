@@ -2,7 +2,7 @@
 #include <WiFiClientSecureBearSSL.h>
 
 ScoopML( char *server, string text){
-const char *server = "https://api.climacell.co/v3/weather/realtime";
+char *server;
 string text;
 return *server , text
 }

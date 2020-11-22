@@ -1,7 +1,11 @@
 #include <ESP8266HTTPClient.h>
 #include <WiFiClientSecureBearSSL.h>
+
+ScoopML( char *server, string text){
 const char *server = "https://api.climacell.co/v3/weather/realtime";
 string text;
+return *server , text
+}
 HTTPClient http;
 void loop() {
   Serial.println("Connecting to the HTTP server....");
